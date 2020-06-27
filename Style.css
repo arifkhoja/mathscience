@@ -1,0 +1,64 @@
+.main {
+    background: linear-gradient(to right, hsla(214, 100%, 90%, 100%) 0%, hsla(214, 100%, 90%, 0%) 20%, hsla(214, 100%, 90%, 0%) 50%, hsla(214, 100%, 90%, 0%) 80%, hsla(214, 100%, 90%, 100%) 100%);
+}
+
+.header {
+    background: url(Images/hdr-main-lite.svg) no-repeat fixed center top;
+    height: 300px;
+}
+
+.containerCustom {
+    margin-top: -65px;
+    width: 700px;
+}
+
+    .containerCustom h1 {
+        margin: 18px 0 5px;
+        font: 40px champ,Verdana,Arial;
+        text-align: center;
+        color: #006eff33;
+        text-shadow: 2px 5px 5px hsl(0, 0%, 100%), 0px 0px 0 hsl(214, 100%, 25%);
+    }
+
+    .containerCustom h3 {
+        margin: 24px 0 10px;
+        font-weight: 400;
+        font-size: 18px;
+        color: #296bc2;
+    }
+
+    .containerCustom h2 {
+        margin: 60px 0 12px;
+        font: 30px champ,Verdana;
+        color: #f33;
+    }
+
+.large {
+    font-size: 19px;
+    color: #8f7700;
+}
+
+.intbl {
+    display: inline-table;
+    text-align: center;
+    vertical-align: 40%;
+    margin: 0 2px;
+    border-collapse: collapse;
+}
+
+    .intbl em {
+        display: table-row;
+        text-align: center;
+        border-bottom: solid #333 1px;
+        font-size: 93%;
+        font-style: inherit;
+        line-height: 130%;
+    }
+
+    .intbl strong {
+        display: table-row;
+        text-align: center;
+        font-weight: inherit;
+        font-size: 93%;
+        line-height: 110%;
+    }
